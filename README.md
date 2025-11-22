@@ -70,8 +70,12 @@ Choose any of the three options above. Ask the RAG agent a question.
 
 ## Evaluation metrics
 The evaluation focuses on accuracy and factual grounding, with supporting metrics such as query alignment, completeness etc. 
+
 These evaluation metrics are preliminary and only support the experiment of this toy project. 
-More tests and reevaluation need to be done in order to select the right metrics for the RAG agent fulfilling specific tasks. 
+
+More tests and reevaluation need to be done in order to compare, and define the right metrics for the RAG agent fulfilling specific tasks. 
+
+Improvement can be done to include different sets of evaluations in one agent for defined scenarios. 
 
 ## Demo
 See demo.mp4
