@@ -69,6 +69,16 @@ Choose any of the three options above. Ask the RAG agent a question.
 - You will be asked if you would like to evaluate the answer. Type 'y' to view the evaluation results. (OpenAI API key required)
 - Continue with more questions or quit
 
+Example: 
+```
+💭 Enter your query (or 'quit' to exit): What is Python?
+🔍 Searching for: What is Python?
+🤖 Generating answer...
+🤖 AGENT RESPONSE
+[Answer appears here]
+📊 Run objective evaluation? (y/n): y
+   ```
+
 ## Evaluation metrics
 The evaluation focuses on accuracy and factual grounding, with supporting metrics such as query alignment, completeness etc. 
 
