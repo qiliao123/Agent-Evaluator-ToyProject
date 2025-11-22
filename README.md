@@ -51,12 +51,14 @@ More advanced with objective metrics, uses GPT-4 for evaluation, and returns JSO
 
 **Option 3: Evaluator CLI (rag_evaluator.py)**
 
-Most comprehensive evaluation with citation coverage, factual grounding, and hallucination detection.
+Comprehensive evaluation with citation coverage, factual grounding, and hallucination detection.
+
+> **Each evaluator has its pros and cons. It's not a goal to decide which evaluator works better in this experiment.** 
 
 All require setting your OpenAI API key.
 Without OpenAI API key provided, you can still run your query and the agent will return search results only without evaluation. 
 
-Note: other .py files show the thought process steps, and not necessarily required to run the CLI agent.  
+> Note: other .py files show the thought process steps, and not necessarily required to run the CLI agent.  
 
 ### How to 
 Choose any of the three options above. Ask the RAG agent a question.
