@@ -67,6 +67,7 @@ Choose any of the three options above. Ask the RAG agent a question.
 - Enter your query.
 - Agent returns the search result summary and the generated answer.
 - You will be asked if you would like to evaluate the answer. Type 'y' to view the evaluation results. (OpenAI API key required)
+- Continue with more questions or quit
 
 ## Evaluation metrics
 The evaluation focuses on accuracy and factual grounding, with supporting metrics such as query alignment, completeness etc. 
